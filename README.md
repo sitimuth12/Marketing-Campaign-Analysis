@@ -14,6 +14,7 @@ Create a machine learning model that is able to predict whether a customer will 
 ## Steps
 1. Exploratory Data Analysis (Descriptive, Univariate, Multivariate)
 2. Data Preprocessing 
+
     a. Handle Missing Value
     b. Feature Extraction;
         - Create Age column from Year_birth column
@@ -46,12 +47,12 @@ Following are the results after hyperparameter tuning:
 ![alt text](fig/model after tuning.png?raw=true)
 
 ## Business Insight & Recomendations
-Insight:
-- Recency rendah: customer yang baru-baru ini melakukan pembelian
-- MntGoldProducts tinggi: customer yang membeli produk emas dalam jumlah yang besar
-- NumWebVisitsMonth tinggi: customer yang sering mengunjungi website perusahaan, dimana customer dapat melakukan pembelian melalui website perusahaan
+The features that most influenced customers in responding to the last campaign were:
+- Low recency: customers who have recently made a purchase
+- High MntGoldProducts: customers who buy gold products in large quantities
+- High NumWebVisitsMonth: customers who frequently visit the company's website, where customers can make purchases through the company's website
 
-Rekomendasi:
-- Menargetkan campaign kepada customer yang baru-baru ini melakukan pembelian
-- Menargetkan campaign kepada customer yang banyak melakukan pembelian produk emas atau melakukan campaign yang berhubungan dengan produk emas
-- Melakukan campaign melalui website perusahaan
+Recommendation:
+- Target campaigns at customers who have recently made a purchase
+- Target campaigns at customers who buy a lot of gold products or conduct campaigns related to gold products
+- Conducting campaigns through the company's website
