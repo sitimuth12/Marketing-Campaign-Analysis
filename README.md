@@ -12,23 +12,21 @@ Make marketing campaigns that are right on target (response rate and high profit
 Create a machine learning model that is able to predict whether a customer will respond to the next campaign or not.
 
 ## Steps
-1. Exploratory Data Analysis (Descriptive, Univariate, Multivariate)
-2. Data Preprocessing 
-
-    a. Handle Missing Value
+1.  Exploratory Data Analysis (Descriptive, Univariate, Multivariate)
+2.  Data Preprocessing
+    a. Handle Missing Value 
     b. Feature Extraction;
-        - Create Age column from Year_birth column
-        - Created the Dependents column from the Kidhome and Teenhome columns
-    c. In the Education column, the 2n Cycle category is changed to Master
-    d. Perform Label Encoding in the Education column
-    e. In the Marital Status column, Change multiple categories that are ambiguous and have the same meaning.
-    f. Perform One Hot Encoding (OHE) on the Marital Status column    
-    g. Feature Selection
-    h. Handle outliers with Yeo-Johnson transformation
-    i. Split Data Train and Test
+	    - Create Age column from Year_birth column 
+	    - Created the Dependents column from the Kidhome and Teenhome columns
+    c. In the Education column, the 2n Cycle category is changed to Master 
+    d. Perform Label Encoding in the Education column 
+    e. In the Marital Status column, Change multiple categories that are ambiguous and have the same meaning. 
+    f. Perform One Hot Encoding (OHE) on the Marital Status column  
+    g. Feature Selection h. Handle outliers with Yeo-Johnson transformation 
+    i. Split Data Train and Test 
     j. Handle Class Imbalance with Random Oversampling
-3. Train model with 5 different algorithms classification
-4. Business Recomendation
+3.  Train model with 5 different algorithms classification
+4.  Business Recommendation
 
 ## Analisis Data
 1.Most of the customers who received the Response (last marketing campaign) came from the year of birth 1970-1975.
