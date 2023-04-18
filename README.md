@@ -14,10 +14,13 @@ Create a machine learning model that is able to predict whether a customer will 
 ## Steps
 1.  Exploratory Data Analysis (Descriptive, Univariate, Multivariate)
 2.  Data Preprocessing
+ 
     a. Handle Missing Value 
+    
     b. Feature Extraction;
-	    - Create Age column from Year_birth column 
-	    - Created the Dependents column from the Kidhome and Teenhome columns
+    - Create Age column from Year_birth column 
+    - Created the Dependents column from the Kidhome and Teenhome columns
+    
     c. In the Education column, the 2n Cycle category is changed to Master 
     d. Perform Label Encoding in the Education column 
     e. In the Marital Status column, Change multiple categories that are ambiguous and have the same meaning. 
