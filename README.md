@@ -27,29 +27,23 @@ Create a machine learning model that is able to predict whether a customer will 
     i. Split Data Train and Test
     j. Handle Class Imbalance with Random Oversampling
 3. Train model with 5 different algorithms classification
-4. Evaluation with confussion matrix
-5. Business Recomendation
+4. Business Recomendation
 
 ## Analisis Data
 1.Most of the customers who received the Response (last marketing campaign) came from the year of birth 1970-1975.
-![alt text](?raw=true)
+![alt text](fig/insight1.png?raw=true)
 
 2.the newer the customer makes a purchase, the more likely the customer is to receive the company's last marketing campaign (Response).
-![alt text](?raw=true)
+![alt text](fig/insight2.png?raw=true)
 
 ## ML Modeling
 Before train the model, split the data into train set & test set (size is 30%). Trained the model with 5 different algorithms and evaluated them with ROC AUC score because the data is imbalanced and focuses on positive and negative labels.
-![alt text](?raw=true)
+![alt text](fig/modelling.png?raw=true)
 
 The result we choose the Random Forest model as the best model because the data is non-linear and the gap between train and test from the ROC AUC score is the smallest among the other models. Then, because the ROC AUC score still indicates overfitting, hyperparameter tuning will be performed on the Random Forest model.
 
 Following are the results after hyperparameter tuning:
-![alt text](?raw=true)
-
-## Model Evalutaion
-![alt text](?raw=true)
-
-By using the confusion matrix, it is obtained that the resulting Random Forest model is very good. We can see the prediction error (purple cells) is very small (top right and bottom left).
+![alt text](fig/model after tuning.png?raw=true)
 
 ## Business Insight & Recomendations
 Insight:
