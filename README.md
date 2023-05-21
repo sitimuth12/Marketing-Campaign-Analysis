@@ -39,10 +39,11 @@ Create a machine learning model that is able to predict whether a customer will 
 4.  Business Recommendation
 
 ## Analisis Data
-1.Most of the customers who received the Response (last marketing campaign) came from the year of birth 1970-1975.
+1. Most of the customers who received the Response (last marketing campaign) came from the year of birth 1970-1975.
+
 ![alt text](fig/insight1.png?raw=true)
 
-2.the newer the customer makes a purchase, the more likely the customer is to receive the company's last marketing campaign (Response).
+2. The newer the customer makes a purchase, the more likely the customer is to receive the company's last marketing campaign (Response).
 ![alt text](fig/insight2.png?raw=true)
 
 ## ML Modeling
