@@ -54,7 +54,7 @@ The result we choose the Random Forest model as the best model because the data 
 
 Following are the results after hyperparameter tuning:
 ![alt text](fig/model after tuning.png?raw=true)
-![alt text](fig/model after tuning.png)
+![alt text](fig/model_after_tuning.png)
 
 ## Business Insight & Recomendations
 The features that most influenced customers in responding to the last campaign were:
