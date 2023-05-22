@@ -53,6 +53,7 @@ Before train the model, split the data into train set & test set (size is 30%). 
 The result we choose the Random Forest model as the best model because the data is non-linear and the gap between train and test from the ROC AUC score is the smallest among the other models. Then, because the ROC AUC score still indicates overfitting, hyperparameter tuning will be performed on the Random Forest model.
 
 Following are the results after hyperparameter tuning:
+![alt text](fig/model after tuning.png?raw=true)
 ![alt text](fig/model after tuning.png)
 
 ## Business Insight & Recomendations
