@@ -38,7 +38,7 @@ Create a machine learning model that is able to predict whether a customer will 
 3.  Train model with 5 different algorithms classification
 4.  Business Recommendation
 
-## Analisis Data
+## Analysis Data
 1. Most of the customers who received the Response (last marketing campaign) came from the year of birth 1970-1975.
 
 ![alt text](fig/insight1.png?raw=true)
